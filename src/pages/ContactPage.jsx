@@ -1,58 +1,53 @@
+// 
 import React from "react";
-import { Footer, Navbar } from "../components";
-const ContactPage = () => {
+import { FaPhone, FaEnvelope, FaBuilding, FaMapMarkerAlt } from "react-icons/fa";
+import { Navbar } from "../components";
+
+const ContactInfo = () => {
   return (
     <>
-      <Navbar />
-      <div className="container my-3 py-3">
-        <h1 className="text-center">Contact Us</h1>
-        <hr />
-        <div class="row my-4 h-100">
-          <div className="col-md-4 col-lg-4 col-sm-8 mx-auto">
-            <form>
-              <div class="form my-3">
-                <label for="Name">Name</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="Name"
-                  placeholder="Enter your name"
-                />
-              </div>
-              <div class="form my-3">
-                <label for="Email">Email</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="Email"
-                  placeholder="name@example.com"
-                />
-              </div>
-              <div class="form  my-3">
-                <label for="Password">Message</label>
-                <textarea
-                  rows={5}
-                  class="form-control"
-                  id="Password"
-                  placeholder="Enter your message"
-                />
-              </div>
-              <div className="text-center">
-                <button
-                  class="my-2 px-4 mx-auto btn btn-dark"
-                  type="submit"
-                  disabled
-                >
-                  Send
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-      <Footer />
-    </>
+            <Navbar />
+    <div className="container py-5" style={{ maxWidth: "600px" }}>
+      <h2 className="mb-3">Salis International</h2>
+      <p className="mb-1"></p>
+
+      <ul className="list-unstyled mt-4">
+        <li className="d-flex align-items-center mb-3">
+          <FaPhone size={20} className="me-3 text-primary" />
+          <span>+353 89 940 0483</span>
+        </li>
+        <li className="d-flex align-items-center mb-3">
+          <FaEnvelope size={20} className="me-3 text-primary" />
+          <a href="mailto:mail@morningscore.io" className="text-decoration-none">
+            Salisinternational786@gmail.com
+          </a>
+        </li>
+        <li className="d-flex align-items-center mb-3">
+          <FaBuilding size={20} className="me-3 text-primary" />
+          <span>Daska road near Shell pump Sialkot Pakistan</span>
+        </li>
+        <li className="d-flex align-items-center mb-3">
+          <FaMapMarkerAlt size={20} className="me-3 text-primary" />
+          <span>Warehouse Melbourne Australia </span>
+        </li>
+      </ul>
+
+      <p className="mt-4">
+        We strive to answer all inquiries within 24 hours, If you
+        need help in tool-specific areas, you can also check out our{" "}
+        <a href="/help" className="text-primary text-decoration-none">
+          help section
+        </a>
+        .
+      </p>
+
+      <h5 className="mt-4">ORDER SCHDULE:</h5>
+      <p>
+        <strong> 24 HOURS Everyday</strong>
+      </p>
+    </div>
+      </>
   );
 };
 
-export default ContactPage;
+export default ContactInfo;

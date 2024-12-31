@@ -1,63 +1,35 @@
 import React from 'react'
-import { Footer, Navbar } from "../components";
-const AboutPage = () => {
+import { Footer, Navbar, Product } from "../components";
+const AboutPage = () => { 
   return (
     <>
       <Navbar />
+
+      {/* <div className="container">
+              <h5 className="card-title fs-1 text fw-lighter fw-bold text-center">New Season Arrivals</h5>
+              <p className="card-text fs-5 d-none d-sm-block "> */}
       <div className="container my-3 py-3">
         <h1 className="text-center">About Us</h1>
         <hr />
-        <p className="lead text-center">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-          facere doloremque veritatis odit similique sequi. Odit amet fuga nam
-          quam quasi facilis sed doloremque saepe sint perspiciatis explicabo
-          totam vero quas provident ipsam, veritatis nostrum velit quos
-          recusandae est mollitia esse fugit dolore laudantium. Ex vel explicabo
-          earum unde eligendi autem praesentium, doloremque distinctio nesciunt
-          porro tempore quis eaque labore voluptatibus ea necessitatibus
-          exercitationem tempora molestias. Ad consequuntur veniam sequi ullam
-          tempore vel tenetur soluta dolore sunt maxime aliquam corporis est,
-          quo saepe dolorem optio minus sint nemo totam dolorum! Reprehenderit
-          delectus expedita a alias nam recusandae illo debitis repellat libero,
-          quasi explicabo molestiae saepe, dolorem tempore itaque eveniet quam
-          dignissimos blanditiis excepturi harum numquam vel nihil? Ipsum
-        </p>
+        
+        {/* <p className="lead text-center"> */}
+        Welcome to Salis International, your ultimate destination for high-quality shirts and jackets that blend style, comfort, 
+        and durability. We are dedicated to providing our customers with a wide range of premium apparel designed to make you
+         stand out in every setting—be it casual outings, formal events, or everyday wear.
+         <br />
+         <b>Why Choose Salis International?</b>
 
-        <h2 className="text-center py-4">Our Products</h2>
+         <br />
+ 1: Unmatched Quality: Our garments are made from premium materials, ensuring durability and a luxurious <br />
+ 2: Innovative Designs: Stay ahead of fashion trends with our modern, sleek, and timeless designs. <br />
+ 3: Affordable Luxury: Experience high-end fashion without breaking the bank. <br />
+ 4: Customer Satisfaction: Your happiness is our priority. We focus on creating a seamless shopping experience, from browsing to delivery.
+        {/* </p> */}
+
+        {/* <h2 className="text-center py-4">Our Products</h2> */}
         <div className="row">
-          <div className="col-md-3 col-sm-6 mb-3 px-3">
-            <div className="card h-100">
-              <img className="card-img-top img-fluid" src="https://images.pexels.com/photos/298863/pexels-photo-298863.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" height={160} />
-              <div className="card-body">
-                <h5 className="card-title text-center">Mens's Clothing</h5>
-              </div>
-            </div>
+      <Product />
           </div>
-          <div className="col-md-3 col-sm-6 mb-3 px-3">
-            <div className="card h-100">
-              <img className="card-img-top img-fluid" src="https://images.pexels.com/photos/7679720/pexels-photo-7679720.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" height={160} />
-              <div className="card-body">
-                <h5 className="card-title text-center">Women's Clothing</h5>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-3 col-sm-6 mb-3 px-3">
-            <div className="card h-100">
-              <img className="card-img-top img-fluid" src="https://images.pexels.com/photos/1927259/pexels-photo-1927259.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" height={160} />
-              <div className="card-body">
-                <h5 className="card-title text-center">Jewelery</h5>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-3 col-sm-6 mb-3 px-3">
-            <div className="card h-100">
-              <img className="card-img-top img-fluid" src="https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" height={160} />
-              <div className="card-body">
-                <h5 className="card-title text-center">Electronics</h5>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
       <Footer />
     </>

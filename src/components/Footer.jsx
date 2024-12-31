@@ -80,7 +80,7 @@ const Footer = () => {
                 </p>
               <p className="d-flex align-items-center gap-2">
                 <IoCall />
-                +92 3212358896
+                +92 3294419262
               </p>
             </div>
           </div>

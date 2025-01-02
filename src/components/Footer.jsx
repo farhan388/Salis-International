@@ -53,17 +53,17 @@ const Footer = () => {
           <div className="col-md-4">
             <h5 className="mb-3">Connect with Us</h5>
             <div className="d-flex gap-3 mb-3">
-              <a href="#" className="text-light fs-4">
+              {/* <a href="#" className="text-light fs-4">
                 <FaInstagram />
-              </a>
+              </a> */}
               <a href="https://www.facebook.com/profile.php?id=61571059807591&mibextid=ZbWKwL" target="_blank" className="text-light fs-4">
                      <FaFacebook />
                 </a>
-                <a href = "https://wa.me/03262278416" target="_blank" className = "text-light fs-4" >  <FaWhatsapp />
+                <a href = "https://wa.me/+353899400483" target="_blank" className = "text-light fs-4" >  <FaWhatsapp />
     </a>
-              <a href="#" className="text-light fs-4" target="_blank">
+              {/* <a href="#" className="text-light fs-4" target="_blank">
                 <FaLinkedin />
-              </a>
+              </a> */}
             </div>
             <div>
               <p className="mb-2 d-flex align-items-center gap-2">
@@ -80,7 +80,7 @@ const Footer = () => {
                 </p>
               <p className="d-flex align-items-center gap-2">
                 <IoCall />
-                +92 3294419262
+                +353 89940 0483
               </p>
             </div>
           </div>

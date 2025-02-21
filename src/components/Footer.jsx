@@ -37,16 +37,21 @@ const Footer = () => {
 
           {/* Footer Links */}
           <div className="col-md-4">
-            <h5 className="mb-3">Links</h5>
-            <ul className="list-unstyled">
-              {FooterLinks.map((link) => (
-                <li key={link.title} className="mb-2">
-                  <a href={link.link} className="text-decoration-none text-light">
-                    {link.title}
-                  </a>
-                </li>
-              ))}
-            </ul>
+            <div>
+              <h5 className="mb-3">Links</h5>
+              <ul className="list-unstyled">
+                {FooterLinks.map((link) => (
+                  <li key={link.title} className="mb-2">
+                    <a href={link.link} className="text-decoration-none text-light">
+                      {link.title}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div>
+               Owner Of Salis International: <hr/> <b>Ch. Afzaal Cheema</b>
+            </div>
           </div>
 
           {/* Social Links and Contact */}
@@ -60,7 +65,7 @@ const Footer = () => {
                      <FaFacebook />
                 </a>
                 <a href = "https://wa.me/+353899400483" target="_blank" className = "text-light fs-4" >  <FaWhatsapp />
-    </a>
+              </a>
               {/* <a href="#" className="text-light fs-4" target="_blank">
                 <FaLinkedin />
               </a> */}

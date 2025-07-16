@@ -33,7 +33,7 @@ const Navbar = () => {
                         <NavLink to="/cart" className="btn btn-outline-dark m-2"><i className="fa fa-cart-shopping mr-1"></i> Cart ({state.length}) </NavLink>
                     </div> */}
                       {/* <div className="contact-info text-center"> */}
-                        <p className="m-2"><i className="fa fa-phone mr-1"></i> +353 89940 0483</p>
+                        <p className="m-2"><i className="fa fa-phone mr-1"></i> +353 8922 12717</p>
                         <p className="m-2"><i className="fa fa-map-marker-alt mr-1"></i> Headoffice Daska road near Shell Pump Sialkot</p>
                         {/* <div className="social-icons m-2">
                             <a href="https://www.whatsapp.com" className="btn btn-outline-dark m-1"><i className="fa fa-whatsapp"></i></a>
